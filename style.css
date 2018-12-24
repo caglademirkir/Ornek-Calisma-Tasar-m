@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+header{
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h1,h3,p,h4{
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+#services p{
+    font-size: 20px;
+    opacity: 0.5;
+}
+.hr-org{
+    border-color: #F05F40;
+    max-width: 50px;
+    border-width: medium;
+}
+
+#btn-find{
+    color: #fff;
+    background-color: #F05F40;
+    border-color: #F05F40;
+    text-transform: uppercase;
+    border-radius: 200px;
+    font-weight: 600;
+    padding: 2% 4%;
+}
+/*About-Section*/
+#about{
+    background-color: #F05F40;
+}
+
+.hr-white{
+    border-color: #fff;
+    max-width: 50px;
+    border-width: medium;
+}
+
+#about h3{
+    padding-top: 100px;
+}
+
+#btn-start{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+    border-radius: 200px;
+    font-weight: 600;
+}
+
+/*Services-Section*/
+#services h3{
+    color: inherit;   
+}
+
+#services .fas{
+    color: #F05F40!important;
+}
+
+#services h4{
+    opacity: 0.9;
+}
+
+#services p{
+    color: #000;
+    font-size: 16px;
+}
+
+/*Portfolio-Section*/
+a{
+    display: block;
+}
+
+.box:hover{
+    background-color: #F05F40;
+}
+
+.box:hover img {
+    opacity: 0.2;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#portfolio h4{
+    opacity: 0.6;
+    text-align: center;
+}
+
+#portfolio p{
+    font-size: 26px;
+}
+
+/*Contact-Section*/
+#contact h3{
+    color: #000;
+}
+
+#contact h5{
+    color: #212529;
+    font-size: 17px;
+}
+
+#contact p{
+    display: block;
+    color: inherit;
+}
+
+#contact a{
+    color: #F05F40;
+    font-weight: 600;  
+}
